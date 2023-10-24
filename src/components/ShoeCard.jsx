@@ -5,10 +5,10 @@ const ShoeCard = ({imgURL, bigShoeImg, changeBigShoeImage}) => {
       }
 
    }
-   console.log(`thumbnail is :${imgURL.thumbnail}`)
+
    return (
        <div className={`border-2 rounded-xl
-       ${bigShoeImg === imgURL ? 'border-coral-red' : 'border-transparent'}
+       ${bigShoeImg === imgURL.bigShoe ? 'border-coral-red' : 'border-transparent'}
         cursor-pointer max-sm:flex-1`}
             onClick={handleClick}
        >

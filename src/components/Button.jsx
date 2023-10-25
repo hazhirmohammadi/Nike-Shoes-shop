@@ -1,5 +1,6 @@
 
 const Button = ({label,iconURL}) => {
+
    return (
        <button
            className="flex justify-center rounded-full
@@ -7,11 +8,11 @@ const Button = ({label,iconURL}) => {
             text-lg leading-none bg-coral-red text-white border-coral-red"
        >
           {label}
-          <img
+          {iconURL && <img
               src={iconURL}
               alt="arrowRight icon"
               className="ml-2 rounded-full w-5 h-5"
-          />
+          />}
        </button>
    );
 };

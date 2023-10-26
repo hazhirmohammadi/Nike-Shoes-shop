@@ -9,8 +9,6 @@ const SuperQuality = () => {
             max-lg:flex-col gap-10 w-full max-continer"
        >
           <div className=" flex flex-1 flex-col ">
-
-
              <h2 className="mt-10 font-palanquin
              text-4xl capitalize font-bold lg:max-w-lg">
                we provide you
@@ -29,8 +27,8 @@ const SuperQuality = () => {
              <div className="mt-11 ">
                 <Button label="View details"/>
              </div>
-
           </div>
+
           <div className=" flex flex-1 justify-center items-center">
              <img
                  src={shoe8}

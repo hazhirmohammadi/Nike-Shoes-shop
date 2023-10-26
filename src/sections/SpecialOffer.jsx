@@ -16,13 +16,10 @@ const SpecialOffer = () => {
              />
           </div>
           <div className=" flex flex-1 flex-col ">
-             <h2 className="mt-10 font-palanquin
-             text-4xl capitalize font-bold lg:max-w-lg">
-
-                <span className="text-coral-red">super</span>
-                Special
-                <span className="text-coral-red">Quality</span>
-                Offer
+             <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
+                We Provide You
+                <span className='text-coral-red'> Super </span>
+                <span className='text-coral-red'>Quality </span> Shoes
              </h2>
              <p className="mt-4 lg:max-w-lg info-text">
                 Embark on a shopping journey that redefines your experience with

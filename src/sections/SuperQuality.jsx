@@ -1,4 +1,4 @@
-import Button from "../components/Button.jsx";
+import Button from "../components/common/Button.jsx";
 import {shoe8} from "../assets/images/index.js";
 
 

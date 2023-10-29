@@ -1,5 +1,5 @@
 import {services} from "../constants/index.js";
-import ServiceCard from "../components/ServiceCard.jsx";
+import ServiceCard from "../components/common/ServiceCard.jsx";
 
 const Services = () => {
    return (
@@ -11,6 +11,7 @@ const Services = () => {
                   {...service}
               />
           ))}
+
        </section>
    );
 };

@@ -1,4 +1,4 @@
-import {star} from "../assets/icons/index.js";
+import {star} from "../../assets/icons/index.js";
 
 
 const ReviewCard = ({customerName,feedback,rating,imgURL}) => {

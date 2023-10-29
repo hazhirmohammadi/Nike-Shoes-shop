@@ -1,5 +1,5 @@
 import {offer} from "../assets/images/index.js";
-import Button from "../components/Button.jsx";
+import Button from "../components/common/Button.jsx";
 import {arrowRight} from "../assets/icons/index.js";
 
 const SpecialOffer = () => {

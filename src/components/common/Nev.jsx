@@ -1,6 +1,7 @@
-import {headerLogo} from "../assets/images/index.js";
-import {hamburger} from "../assets/icons/index.js";
-import {navLinks} from "../constants/index.js";
+import {headerLogo} from "../../assets/images/index.js";
+import {hamburger} from "../../assets/icons/index.js";
+import {navLinks} from "../../constants/index.js";
+import {Link} from "react-router-dom";
 
 const Nev = () => {
    return (
@@ -18,13 +19,13 @@ const Nev = () => {
              gap-6 max-lg:hidden'>
                 {navLinks.map((item) => (
                     <li key={item.label}>
-                       <a
-                           href={item.href}
+                       <Link
+                           to={item.href}
                            className="font-montserrat leading-normal
                            text-lg text-slate-gray"
                        >
                           {item.label}
-                       </a>
+                       </Link>
                     </li>
                 ))}
              </ul>

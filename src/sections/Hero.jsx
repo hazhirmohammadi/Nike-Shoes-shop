@@ -1,8 +1,8 @@
-import Button from "../components/Button.jsx";
+import Button from "../components/common/Button.jsx";
 import {arrowRight} from "../assets/icons/index.js";
 import {shoes, statistics} from "../constants/index.js";
 import {bigShoe1} from "../assets/images/index.js";
-import ShoeCard from "../components/ShoeCard.jsx";
+import ShoeCard from "../components/common/ShoeCard.jsx";
 import {useState} from "react";
 
 const Hero = () => {

@@ -3,7 +3,7 @@ import {hamburger} from "../../assets/icons/index.js";
 import {navLinks} from "../../constants/index.js";
 import {Link} from "react-router-dom";
 
-const Nev = () => {
+const Nav = () => {
    return (
        <header className="padding-x py-8 absolute z-10 w-full">
           <nav className="flex justify-between items-center max-container">
@@ -42,4 +42,4 @@ const Nev = () => {
    );
 };
 
-export default Nev;
+export default Nav;

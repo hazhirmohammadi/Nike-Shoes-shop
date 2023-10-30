@@ -7,7 +7,7 @@ import {
    Subscribe,
    SuperQuality
 } from "../sections/index.js";
-import Nav from "./common/Nev.jsx";
+import Nav from "./common/Nav.jsx";
 
 const Home = () => {
    return (

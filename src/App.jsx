@@ -10,14 +10,17 @@
 // } from "./sections/index.js";
 
 import {Outlet} from "react-router-dom";
-import Home from "./components/Home.jsx";
+
+import Layout from "./components/layout/layout.js";
 
 
 const App = () => (
-    <main className="relative">
-       <Home/>
-       <Outlet/>
-    </main>
+
+      <main className="relative">
+         <Layout>
+            <Outlet/>
+         </Layout>
+      </main>
 )
 
 

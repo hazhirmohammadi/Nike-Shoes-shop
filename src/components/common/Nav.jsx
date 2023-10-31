@@ -13,6 +13,7 @@ const Nav = () => {
                     alt="Logo"
                     width={130}
                     height={29}
+                    className="hover:scale-110 hover:transition hover:delay-75"
                 />
              </a>
              <ul className='flex-1 flex justify-center items-center
@@ -21,7 +22,7 @@ const Nav = () => {
                     <li key={item.label}>
                        <Link
                            to={item.href}
-                           className="font-montserrat leading-normal
+                           className="font-montserrat leading-normal hover:underline hover:text-orange-600
                            text-lg text-slate-gray"
                        >
                           {item.label}

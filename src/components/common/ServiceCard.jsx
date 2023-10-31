@@ -2,7 +2,7 @@
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({imgURL,label,subtext}) => {
    return (
-       <div className='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-gray-300 shadow-3xl px-10 py-16'>
+       <div className='hover:scale-105 hover:delay-75 hover:transition flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-gray-300 shadow-3xl px-10 py-16'>
           <div className='w-11 h-11 flex justify-center items-center bg-coral-red rounded-full'>
              <img src={imgURL} alt={label} width={24} height={24} />
           </div>
